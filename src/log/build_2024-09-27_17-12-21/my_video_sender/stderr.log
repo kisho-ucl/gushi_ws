@@ -1,0 +1,21 @@
+[01m[K/home/realsense/gushi_ws/src/my_video_sender/src/image_processor.c:[m[K In function ‘[01m[Kpass_image_to_c_function[m[K’:
+[01m[K/home/realsense/gushi_ws/src/my_video_sender/src/image_processor.c:7:9:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\343[m[K’ in program
+    7 |   例えば[01;31m[K、[m[Kファイルに書き出したり、別の処理を行う
+      |         [01;31m[K^~[m[K
+[01m[K/home/realsense/gushi_ws/src/my_video_sender/src/image_processor.c:7:3:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[K例えば[m[K’
+    7 |   [01;31m[K例えば[m[K、ファイルに書き出したり、別の処理を行う
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/realsense/gushi_ws/src/my_video_sender/src/image_processor.c:7:33:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\343[m[K’ in program
+    7 |   例えば、ファイルに書き出したり[01;31m[K、[m[K別の処理を行う
+      |                                 [01;31m[K^~[m[K
+[01m[K/home/realsense/gushi_ws/src/my_video_sender/src/image_processor.c:7:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K別の処理を行う[m[K’
+    7 |   例えば、ファイルに書き出したり、[01;31m[K別の処理を行う[m[K
+      |                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/realsense/gushi_ws/src/my_video_sender/src/image_processor.c:9:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kfile[m[K’ undeclared (first use in this function); did you mean ‘[01m[Kfileno[m[K’?
+    9 |   fwrite(image_data, 1, width * height * 3, [01;31m[Kfile[m[K); // 3はRGBの場合の例
+      |                                             [01;31m[K^~~~[m[K
+      |                                             [32m[Kfileno[m[K
+[01m[K/home/realsense/gushi_ws/src/my_video_sender/src/image_processor.c:9:45:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+gmake[2]: *** [CMakeFiles/image_processor.dir/build.make:76: CMakeFiles/image_processor.dir/src/image_processor.c.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/image_processor.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

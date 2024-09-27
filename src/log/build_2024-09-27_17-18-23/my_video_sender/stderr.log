@@ -1,0 +1,11 @@
+[01m[K/home/realsense/gushi_ws/src/my_video_sender/src/image_processor.c:[m[K In function ‘[01m[Kpass_image_to_c_function[m[K’:
+[01m[K/home/realsense/gushi_ws/src/my_video_sender/src/image_processor.c:6:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+    6 |   printf("aaaaaaa")
+      |                    [01;31m[K^[m[K
+      |                    [32m[K;[m[K
+......
+   10 | [32m[K}[m[K
+      | [32m[K~[m[K                   
+gmake[2]: *** [CMakeFiles/image_processor.dir/build.make:76: CMakeFiles/image_processor.dir/src/image_processor.c.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/image_processor.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

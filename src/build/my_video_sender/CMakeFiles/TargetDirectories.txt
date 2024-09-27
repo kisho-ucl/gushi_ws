@@ -1,0 +1,11 @@
+/home/realsense/gushi_ws/src/build/my_video_sender/CMakeFiles/uninstall.dir
+/home/realsense/gushi_ws/src/build/my_video_sender/CMakeFiles/my_video_sender_uninstall.dir
+/home/realsense/gushi_ws/src/build/my_video_sender/CMakeFiles/image_receiver.dir
+/home/realsense/gushi_ws/src/build/my_video_sender/CMakeFiles/image_processor.dir
+/home/realsense/gushi_ws/src/build/my_video_sender/CMakeFiles/test.dir
+/home/realsense/gushi_ws/src/build/my_video_sender/CMakeFiles/edit_cache.dir
+/home/realsense/gushi_ws/src/build/my_video_sender/CMakeFiles/rebuild_cache.dir
+/home/realsense/gushi_ws/src/build/my_video_sender/CMakeFiles/list_install_components.dir
+/home/realsense/gushi_ws/src/build/my_video_sender/CMakeFiles/install.dir
+/home/realsense/gushi_ws/src/build/my_video_sender/CMakeFiles/install/local.dir
+/home/realsense/gushi_ws/src/build/my_video_sender/CMakeFiles/install/strip.dir
